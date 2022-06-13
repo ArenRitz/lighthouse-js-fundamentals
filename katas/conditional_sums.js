@@ -5,7 +5,7 @@ const conditionalSum = function (values, condition) {
     for (i = 0; i < values.length; i++) {
       if (values[i] % 2 === 0) {
         sumArr.push(values[i]);
-      } 
+      }
     };
     for (x = 0; x < sumArr.length; x++) {
       totalSum += sumArr[x];
